@@ -1,0 +1,90 @@
+.experience-container
+{
+    margin-left:10px ;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience-container h1{
+    text-align:  center;
+    color:#4a114a ;
+   
+}
+.experience-container p{
+    text-align:  center;
+}
+
+.experience-container hr{
+   width: 1300px;
+   text-align: center;
+   margin: 10px auto;
+   color:#4a114a ;
+   
+
+}
+
+.experience-container .vertical-timeline-element-title{
+    color:#4a114a ;
+}
+.experience-container .vertical-timeline-element--work p {
+    color:#625e62 ;
+}
+
+
+
+
+
+
+
+
+
+
+/* ...............DArk mode...... */
+
+
+#dark .experience-container
+{
+    margin-left:10px ;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dark .experience-container h1{
+    text-align:  center;
+    color:rgb(169, 183, 208) ;
+   
+}
+#dark .experience-container p{
+    text-align:  center;
+}
+
+#dark .experience-container hr{
+   width: 1300px;
+   text-align: center;
+   margin: 10px auto;
+   color:rgb(169, 183, 208) ;
+   
+
+}
+
+#dark .experience-container .vertical-timeline-element-title{
+    color:rgb(169, 183, 208);
+}
+#dark .experience-container .vertical-timeline-element--work p {
+    color:#625e62 ;
+}
+@media (max-width:600px) {
+
+    .experience-container .vertical-timeline-element-work{
+   width: 200px;
+}
+.experience-container
+{
+    margin: 0;
+    width: 400px;
+}
+}

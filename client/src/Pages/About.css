@@ -1,0 +1,124 @@
+.about
+{
+    margin-top: 50px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 30px;
+   
+}
+.about-toggle
+{
+    margin-top: 50px;
+  
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-image img
+{
+    border-radius: 20%;
+    width: 500px;
+    height: 500px;
+}
+.about-image
+{
+
+    width: 500px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+
+.about-content
+{
+
+width: 600px;
+color: rgb(70, 69, 69);
+border-top: 2px solid #621862 ;;
+}
+
+.about-content h3
+{
+
+text-align: center;
+color:#4a114a ;
+margin-top: 20px;
+}
+
+/* ............DArk mode........ */
+#dark .about-content
+{
+
+width: 600px;
+color:rgb(169, 183, 208);
+border-top: 2px solid rgb(169, 183, 208) ;
+}
+
+#dark .about-content h3
+{
+
+text-align: center;
+color:rgb(169, 183, 208) ;
+margin-top: 20px;
+}
+
+
+/* ....................MObile  */
+@media (max-width: 600px) {
+    .about
+    {
+        margin: 12px;
+        padding: 0px;
+        margin-top: 20px;
+        flex-direction: column;
+        margin-left: 40px;
+       
+
+    }
+    .about h3{
+        margin-top: 10px;;
+    }
+
+    .about-image img
+{
+    border-radius: 20%;
+    width: 300px;
+    height: 300px;
+}
+    
+.about-content
+{
+
+width: 300px;
+color: rgb(70, 69, 69);
+border-top: 2px solid #621862 ;
+font-size: 18px;
+}
+
+#dark .about-content
+{
+
+width: 300px;
+color:rgb(169, 183, 208);
+border-top: 2px solid rgb(169, 183, 208) ;
+font-size: 18px;
+}
+.about-image
+{
+
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 40px;
+
+}
+
+}
