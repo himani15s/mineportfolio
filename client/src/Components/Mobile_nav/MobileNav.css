@@ -1,0 +1,51 @@
+@media (min-width: 600px) {
+    .mobile-nav
+    {
+        display: none;
+    }
+    
+}
+
+.mobile-nav{
+    overflow: hidden;
+    width:600px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+} .mobile-nav {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.mobile-nav-header{
+    height: 50px;
+    width: 600px;
+    background-color: #252525;
+    padding: 8px;
+
+}
+
+.mobile-nav-header svg{
+    background-color: white;
+    cursor: pointer;
+}
+.mobile-nav-title
+{
+color: white;
+margin-left: 60px;
+}
+
+.mobile-nav-items
+{
+    background-color: rgba(37, 37, 37);
+    width:fit-content;
+    height: auto; 
+    color: wheat;
+    border-radius: 8px;
+}
+        
+.mobile-nav-link .active
+{
+    color: beige;
+}
