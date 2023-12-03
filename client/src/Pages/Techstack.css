@@ -1,0 +1,99 @@
+.tech-container
+
+{
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.tech-container h1{
+    text-align:  center;
+    color:#4a114a ;
+}
+.tech-container p{
+    text-align:  center;
+}
+
+.tech-container hr{
+    width: 1200px;
+   text-align: center;
+   margin: 10px auto;
+   color:#4a114a ;
+
+}
+
+.card-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    width: 800px;
+}
+.card{
+    border: 2px solid rgb(111, 86, 111);
+    width: 250px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.card:hover{
+    background: linear-gradient(to left, #666060aa, #55455b);
+    transition: 0.3s;
+}
+.tech-icon
+{
+    width: 90px;
+    height: 80px;
+}
+
+/* ................................DARK MODE .................... */
+#dark .card:hover{
+    background: linear-gradient(to left, #666060aa, #454b5b);
+    transition: 0.3s;
+}
+
+#dark .tech-container h1{
+    text-align:  center;
+    color:rgb(169, 183, 208) ;
+}
+#dark 
+.tech-container hr{
+ 
+   text-align: center;
+   margin: 10px auto;
+   color:rgb(169, 183, 208) ;
+
+}
+
+/* mobile */
+@media (max-width: 600px) {
+    .tech-container
+    {
+        margin: 0;
+
+    }
+
+    .card-container
+    {
+        width: 360px;
+        
+    }
+    
+    .tech-container hr{
+        width: 400px;
+
+    }
+    .tech-container
+    {
+        width: 400px;
+        margin: 50px;
+    }
+    .card{
+        width: 150px;
+        height: 100px;
+    }
+}
